@@ -37,7 +37,7 @@
     "coverage": "istanbul cover node_modules/.bin/_mocha -- --recursive",
     "depcheck": "dependency-check app --entry main.js --unused --no-dev",
     "lint": "standard",
-    "start": "electron ./app/main",
+    "start": "electron ./app",
     "clean:linux": "rimraf releases/linux* release/*.deb release/*.AppImage",
     "clean:osx": "rimraf releases/mac",
     "clean:win": "rimraf releases/win*",
